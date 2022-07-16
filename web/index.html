@@ -32,6 +32,10 @@
   <title>phonebook</title>
 <!--  <link rel="manifest" href="manifest.json">-->
 
+<!--  Load Custom CSS-->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+<!--  Load Favicon assets-->
   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
@@ -58,6 +62,8 @@
   <script src="flutter.js" defer></script>
 </head>
 <body>
+  <img class="center" src="img/loading.gif" alt="Loading">
+  <p class="centerLabel">Please wait... Calling Server to respond.</p>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
